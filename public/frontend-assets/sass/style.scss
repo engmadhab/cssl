@@ -1,0 +1,46 @@
+// Variables
+@import 'variables';
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sectionPadding{
+    padding: 50px 0px;
+}
+/*Client*/
+.client {
+    margin:80px 0px;
+}
+.client_logos {
+    border: 2px solid #cccccc;
+}
+.client_img {
+    margin: 5px;
+    border: 2px solid #cccccc;
+}
+.client .owl-prev,.client .owl-next {
+    position: absolute;
+    top: 30%;
+    background: transparent;
+    padding: 5px 15px;
+    font-size: 50px;
+}
+.client .owl-prev { 
+    left: -40px;
+}
+.client .owl-next {
+    right: -40px;
+}
+
+#footerSection{
+    background-color: #f5f5f5;
+}
+.copyrightSection{
+    background-color: $footer-bg-black;
+    color: #fff;
+}
+/*==============otherPages===============*/
+.otherPages{
+    min-height: 200px;
+    overflow: hidden; 
+}
