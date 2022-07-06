@@ -7,6 +7,7 @@
 .sectionPadding{
     padding: 50px 0px;
 }
+
 /*Client*/
 .client {
     margin:80px 0px;
@@ -31,13 +32,50 @@
 .client .owl-next {
     right: -40px;
 }
-
+/*=======================footer-social================*/
 #footerSection{
-    background-color: #f5f5f5;
-}
-.copyrightSection{
     background-color: $footer-bg-black;
+}
+
+h3.footerTitle{
     color: #fff;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.footer-social ul{
+    padding: 0px;
+}
+.footer-social ul li{
+    list-style: none;
+    float: left;
+    padding: 0px 8px;
+    margin: 0px 5px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    
+}
+.footer-social ul li i{
+    text-align: center;
+
+}
+.footer-social ul li a{
+    color: #fff;
+}
+.footer-info p{
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+.copyrightSection{    
+    color: #082f58;
+}
+.copycontent p{
+    padding: 0px;
+    margin: 0px;
+    color: #000;
 }
 /*==============otherPages===============*/
 .otherPages{

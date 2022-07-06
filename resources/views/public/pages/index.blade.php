@@ -4,7 +4,7 @@
 <div class="bannersection">
     @include('public.pages.inc.slider')
 </div>
-<div class="aboutsection sectionPadding">
+<!-- <div class="aboutsection sectionPadding">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
@@ -20,18 +20,25 @@
             </div>
         </div>
     </div>
-</div> <!-- End: aboutsection -->
+</div> -->
 
 <div class="serviceSection sectionPadding">
-    <div class="container-fluid">
+    <div class="container-fluid custom_container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sectionTitle">
+                    <h3>Our Services</h3>
+                    <div class="underline mx-auto"></div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             @foreach ($services as $services )
                 <div class="col-md-3">
                     <div class="serviceBox">
-                        <a class="readmoreBtn" href="{{$services->id}}">
-                            <h3>{{$services->title}}</h3>
-                            <p><img class="img-fluid" src="{{asset('uploads/service/'.$services->serviceimage)}}"></p>
-                            <p>{{$services->short_desc}}</p>
+                        <a class="readmoreBtn" href="{{route('servicedetails', $services->id)}}">                            
+                        <p><img class="img-fluid" src="{{asset('uploads/service/'.$services->serviceimage)}}"></p>
+                        <h3>{{$services->title}}</h3>
                         </a>
                     </div>
                 </div>
@@ -42,48 +49,105 @@
 
 
 <div class="majorSectorWehaveServed sectionPadding">
-    <div class="container-fluid">
+    <div class="container-fluid custom_container">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="sectionTitle">Major Sector We have Served</h3>
+                <div class="sectionTitle">
+                    <h3>Major Sector We have Served</h3>
+                    <div class="underline mx-auto"></div>
+                </div>                
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div class="servedbox">
-                    <h3>Major</h3>
+            <div class="col-md-3">
+                <div class="majorBox">
+                    <p><img class="img-fluid" src="{{asset('images/major-sector/01.png')}}"></p>
+                    <h4>Industrial Area</h4>
                 </div>
             </div>
+            <div class="col-md-3">
+                <div class="majorBox">
+                    <p><img class="img-fluid" src="{{asset('images/major-sector/01.png')}}"></p>
+                    <h4>Garments and Textile</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="majorBox">
+                    <p><img class="img-fluid" src="{{asset('images/major-sector/01.png')}}"></p>
+                    <h4>Health Care & Hospital</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="majorBox">
+                    <p><img class="img-fluid" src="{{asset('images/major-sector/01.png')}}"></p>
+                    <h4>Tourist Spot and Resort</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="majorBox">
+                    <p><img class="img-fluid" src="{{asset('images/major-sector/01.png')}}"></p>
+                    <h4>Heavy Construction Area</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="majorBox">
+                    <p><img class="img-fluid" src="{{asset('images/major-sector/01.png')}}"></p>
+                    <h4>Malls & Plazas</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="majorBox">
+                    <p><img class="img-fluid" src="{{asset('images/major-sector/01.png')}}"></p>
+                    <h4>Corporate Building</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="majorBox">
+                    <p><img class="img-fluid" src="{{asset('images/major-sector/01.png')}}"></p>
+                    <h4>Security Devices</h4>
+                </div>
+            </div>
+            
         </div>
     </div>
 </div><!-- End: majorSectorWehaveServed -->
 
 <div class="newses sectionPadding">
-    <div class="container-fluid">
+    <div class="container-fluid custom_container">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="sectionTitle">News</h3>
+                <div class="sectionTitle">
+                    <h3>News</h3>
+                    <div class="underline mx-auto"></div>
+                </div>                
             </div>
         </div>
         <div class="row">            
             @foreach ($newses as $news)            
                 <div class="col-md-4">
                     <div class="newsbox">
-                        <h3>{{$news->title}}</h3>
                         <p><img class="img-fluid" src="{{asset('uploads/news/'.$news->news_image)}}"></p>
-                        <p>{{$news->news_short_desc}}</p>
+                        <div class="newsboxDetails">
+                            <h3>{{$news->title}}</h3>                        
+                            <p>{{$news->news_short_desc}}</p>
+                            <a href="#">Read More</a>
+                        </div>                        
                     </div>
                 </div>
+                
             @endforeach 
         </div>
     </div>
 </div><!-- End: majorSectorWehaveServed -->
 
 <div class="ourClient sectionPadding">
-    <div class="container-fluid">
+    <div class="container-fluid custom_container">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="sectionTitle">Our Client</h3>
+                <div class="sectionTitle">
+                    <h3>Our Valued Clients</h3>
+                    <div class="underline mx-auto"></div>
+                </div>                
             </div>
         </div>
         <div class="row">

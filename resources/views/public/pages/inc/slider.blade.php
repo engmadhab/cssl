@@ -6,24 +6,27 @@
   </div> -->
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="2000">
-      <img src="{{asset('frontend-assets/uploads/banner-slider/banner01.jpg')}}" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+      <img src="{{asset('frontend-assets/uploads/banner-slider/banner_slider.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block sliderText">
+        <h5>We are committed <span>committed</span> to ensure</h5>
+        <h4>compact security of Your</h4>
+        <h3>Your <span>establishment</span></h3>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="{{asset('frontend-assets/uploads/banner-slider/banner02.jpg')}}" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+      <img src="{{asset('frontend-assets/uploads/banner-slider/banner_slider01.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block sliderText">
+        <h5>We are committed <span>committed</span> to ensure</h5>
+        <h4>compact security of Your</h4>
+        <h3>Your <span>establishment</span></h3>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="{{asset('frontend-assets/uploads/banner-slider/banner03.jpg')}}" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+      <img src="{{asset('frontend-assets/uploads/banner-slider/banner_slider02.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block sliderText">
+        <h5>We are committed <span>committed</span> to ensure</h5>
+        <h4>compact security of Your</h4>
+        <h3>Your <span>establishment</span></h3>
       </div>
     </div>
   </div>

@@ -18,6 +18,8 @@ use App\Http\Controllers\Frontend\{PageController};
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/about-us', [PageController::class, 'aboutus'])->name('aboutus');
 Route::get('/services', [PageController::class, 'services'])->name('services');
+Route::get('/services/{id}', [PageController::class, 'servicedetails'])->name('servicedetails');
+
 Route::get('/news', [PageController::class, 'news'])->name('news');
 Route::get('/carrer', [PageController::class, 'carrer'])->name('carrer');
 Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');

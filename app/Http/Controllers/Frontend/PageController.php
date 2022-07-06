@@ -25,6 +25,14 @@ class PageController extends Controller
         $services  = Service::orderBy('id', 'DESC')->get();
         return view('public/pages/services', compact('services'));
     }  
+    public function servicedetails($id){
+        $servicedtl  = Service::find($id);
+        if(!is_null($servicedtl)){
+            return view('public/pages/services/details', compact('servicedtl'));
+        }else{            
+            return redirect('/');
+        }        
+    }
     public function news(){
         return view('public/pages/news');
     }  

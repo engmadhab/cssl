@@ -49,7 +49,7 @@ class NewsController extends Controller
         $news->title = $request->title;
         $news->news_short_desc = $request->news_short_desc;
         $news->news_full_desc = $request->news_full_desc;
-
+    
         if($request -> hasFile('news_image')){
             $file = $request->file('news_image');
             $name = time()."_".$file->getClientOriginalName();            

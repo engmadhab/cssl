@@ -3,7 +3,10 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="contact-top">
-                    <p>0154545455</p>
+                    <ul>
+                        <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">Info@csslsecurity.com</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="#">0154545455</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-md-6">
@@ -22,7 +25,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="logo">
-                    <a href="./"><h1>Logo</h1></a>
+                    <a href="./"><h1><img class="img-fluid" src="{{asset('frontend-assets/uploads/logo.png')}}" alt=""></h1></a>
                 </div>
             </div>
             <div class="col-md-8">

@@ -1,4 +1,41 @@
 @charset "UTF-8";
+/*===============================*/
+.custom_container{
+  padding: 0px 30px;
+}
+/*================================*/
+.headerTop{
+  padding: 5px 0px;
+  background: #082f58;
+}
+.contact-top{
+
+}
+.contact-top ul{
+  margin: 0px;
+
+}
+.contact-top ul li{
+  list-style: none;
+  float: left;
+  padding:0px;
+  margin: 0px 10px;
+}
+.contact-top ul li i{
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  line-height: 35px;
+  margin-right: 10px;
+  /* background-color: #005dab;
+  border-radius: 50px;
+  width:35px;
+  height: 35px; */
+}
+.contact-top ul li a{
+  color: #fff;
+  text-decoration: none;
+}
 .social-top ul{
   margin: 0px;
   padding: 0px;
@@ -9,19 +46,24 @@
   list-style: none;
   float: left;
 }
+.logo{
+  padding: 7px 0px 3px;
+}
 .navbarmenu {
     overflow: hidden;
-    background-color: #333;
+    background-color: #fff;
     z-index: 1999;
   }
   
   .navbarmenu a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
   }
   
   .dropdownmainmenu {
@@ -33,15 +75,17 @@
     font-size: 16px;  
     border: none;
     outline: none;
-    color: white;
+    color: #333;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
     margin: 0;
   }
   
   .navbarmenu a:hover, .dropdownmainmenu:hover .dropbtn {
-    background-color: red;
+    /* background-color: #173152; */
+    color: #ff0005;
   }
   
   .dropdown-content-mainmenu {
@@ -63,9 +107,151 @@
   }
   
   .dropdown-content-mainmenu a:hover {
-    background-color: #ddd;
+    background-color: #173152;
+    color: #fff;
+    padding-left: 25px;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   
   .dropdownmainmenu:hover .dropdown-content-mainmenu {
     display: block;
   }
+  /*========================sliderText=======================*/
+.carousel-caption{
+  top: 3rem;
+  right:5%;
+}
+.sliderText{
+
+}
+.sliderText h3{
+  color:#082f58;
+  font-size:45px;
+  line-height: 50px;
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+.sliderText h3 span{
+  color:#ff0005;
+}
+.sliderText h4{
+  color:#082f58;
+  font-size:40px;
+  line-height: 60px;
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+.sliderText h5{
+  color:#082f58;
+  font-size:30px;
+  line-height: 50px;
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+.sliderText h5 span{
+  color:#ff0005;
+}
+/*=========================Our Services==================*/
+.sectionTitle h3{
+  text-align: center;
+  color:#082f58;
+  font-size:35px;
+  line-height: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+.underline{
+    height: 2px;
+    width: 100px;
+    background-color: #ff0000;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+/*=================serviceSection==============*/
+.serviceSection{
+  background-color: #f8f9ff;
+}
+.serviceBox{
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.59);
+-webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.59);
+}
+.serviceBox h3{
+  color:#082f58;
+  font-size:25px;
+  line-height: 60px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding:0px 10px;
+  margin: 0px;
+}
+.serviceBox p{
+  padding: 0px;
+  margin: 0px;
+}
+.serviceBox a{
+  text-decoration: none;
+}
+/*==============================majorBox============================*/
+.majorBox{
+  background-color: #005dab;  
+  padding:15px 0px;
+  margin: 15px 0px;
+}
+.majorBox p{
+  text-align: center;
+}
+.majorBox h4{
+  text-align: center;
+  color: #fff;
+  font-size:22px;
+  line-height: 60px;
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+}
+
+/*===========================newses===============================*/
+.newses{
+  background-color: #f8f9ff;
+}
+.newsbox{
+  background: #fff;
+  border: 2px solid #fff;
+}
+.newsbox:hover{
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
+}
+.newsboxDetails{
+  padding: 10px;
+}
+.newsbox h3{
+  color:#082f58;
+  font-size:25px;
+  line-height: 60px;
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  padding:0px;
+  margin: 0px;
+}
+.newsbox p{
+  color:#777;
+  font-size:17px;
+  line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  padding:0px;
+  margin: 0px;
+}
