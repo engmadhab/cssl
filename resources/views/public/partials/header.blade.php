@@ -1,4 +1,4 @@
-<div class="headerTop">
+<!-- <div class="headerTop">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -19,13 +19,13 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <div class="headerBtm">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <div class="logo">
-                    <a href="./"><h1><img class="img-fluid" src="{{asset('frontend-assets/uploads/logo.png')}}" alt=""></h1></a>
+                    <h1><a href="./"><img class="img-fluid" src="{{asset('frontend-assets/uploads/logo.png')}}" alt=""></a></h1>
                 </div>
             </div>
             <div class="col-md-8">

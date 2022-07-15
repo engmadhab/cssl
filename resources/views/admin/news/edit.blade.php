@@ -43,7 +43,7 @@
                         </div>
                         <div class="form-group">
                             <label for="news_full_desc">Full Desc</label>
-                            <textarea id="news_full_desc" class="form-control" cols="30" rows="10" name="news_full_desc">{{$news->news_full_desc}}</textarea>
+                            <textarea id="editordescription" class="form-control editordescription" cols="30" rows="10" name="news_full_desc">{{$news->news_full_desc}}</textarea>
                         </div>  
                         
                         <div class="form-group">

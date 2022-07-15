@@ -2,7 +2,7 @@ $(document).ready(function() {
 	"use strict";     
 	//Clients
 	$('.clients_slider').owlCarousel({
-        items: 4,
+        items: 6,
         loop:true,
         margin:36,
         mouseDrag:true,
@@ -23,7 +23,7 @@ $(document).ready(function() {
         			items:2
         		},
         		1024:{
-        			items:4
+        			items:5
         		}
 				,
         		1920:{

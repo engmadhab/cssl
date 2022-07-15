@@ -43,7 +43,7 @@
                         </div>
                         <div class="form-group">
                             <label for="fulldesc">Full Desc</label>
-                            <textarea id="fulldesc" class="form-control" cols="30" rows="10" name="fulldesc">{{$service->fulldesc}}</textarea>
+                            <textarea id="editordescription" class="form-control editordescription" cols="30" rows="10" name="fulldesc">{{$service->fulldesc}}</textarea>
                         </div>  
                         
                         <div class="form-group">

@@ -21,6 +21,7 @@ Route::get('/services', [PageController::class, 'services'])->name('services');
 Route::get('/services/{id}', [PageController::class, 'servicedetails'])->name('servicedetails');
 
 Route::get('/news', [PageController::class, 'news'])->name('news');
+Route::get('/news/{id}', [PageController::class, 'newsdetails'])->name('newsdetails');
 Route::get('/carrer', [PageController::class, 'carrer'])->name('carrer');
 Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');

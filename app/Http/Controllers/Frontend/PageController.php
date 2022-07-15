@@ -23,7 +23,7 @@ class PageController extends Controller
     }  
     public function services(){
         $services  = Service::orderBy('id', 'DESC')->get();
-        return view('public/pages/services', compact('services'));
+        return view('public/pages/services/services', compact('services'));
     }  
     public function servicedetails($id){
         $servicedtl  = Service::find($id);
@@ -34,13 +34,23 @@ class PageController extends Controller
         }        
     }
     public function news(){
-        return view('public/pages/news');
-    }  
+        $newses = News::orderBy('id', 'DESC')->get();
+        return view('public/pages/news/news', compact('newses'));
+    }
+    public function newsdetails($id){
+        $newsdetails  = News::find($id);
+        if(!is_null($newsdetails)){
+            return view('public/pages/news/newsdetails', compact('newsdetails'));
+        }else{            
+            return redirect('/');
+        }        
+    }
+
     public function carrer(){
         return view('public/pages/carrer');
     }  
     public function gallery(){
-        return view('public/pages/gallery');
+        return view('public/pages/gallery/gallery');
     }  
     public function contact(){
         return view('public/pages/contact');

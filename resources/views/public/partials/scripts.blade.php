@@ -5,3 +5,13 @@
 <script src="{{ asset('frontend-assets/js/jquery-3.6.0.min.js')}}"></script>
 <script src="{{ asset('frontend-assets/js/owl.carousel.min.js')}}"></script>
 <script src="{{ asset('frontend-assets/js/custom.js')}}"></script>
+<script>
+     document.addEventListener("click",function (e){
+   if(e.target.classList.contains("gallery-item")){
+   	  const src = e.target.getAttribute("src");
+   	  document.querySelector(".modal-img").src = src;
+   	  const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+   	  myModal.show();
+   }
+ })
+</script>

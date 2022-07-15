@@ -46,22 +46,20 @@ h3.footerTitle{
 }
 .footer-social ul{
     padding: 0px;
-}
-.footer-social ul li{
-    list-style: none;
-    float: left;
-    padding: 0px 8px;
-    margin: 0px 5px;
-    border: 1px solid #fff;
-    border-radius: 0px;
-    
-}
-.footer-social ul li i{
-    text-align: center;
-
-}
-.footer-social ul li a{
-    color: #fff;
+    li{
+        list-style: none;
+        float: left;
+        padding: 0px 8px;
+        margin: 0px 5px;
+        border: 1px solid #fff;
+        border-radius: 0px;    
+        i{
+            text-align: center;
+        }
+        a{
+            color: #fff;
+        }
+    }
 }
 .footer-info p{
     color: #fff;
@@ -81,4 +79,68 @@ h3.footerTitle{
 .otherPages{
     min-height: 200px;
     overflow: hidden; 
+    padding: 30px 0px;
+}
+.otherPageheader{
+    background-color: #082f58;
+    padding: 10px 0px;
+    h3{
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        line-height: 50px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: capitalize;        
+    }
+}
+.page-content{
+    min-height: 500px;
+}
+.pageDetails{
+    padding-bottom: 30px;
+    img{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+    }
+} 
+.pageDtlsTitle h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 20px;
+    font-weight: 400;  
+    margin: 0px;
+}
+.uPaTitle{
+    height: 2px;
+    width: 100px;
+    background-color: #ff0000;
+    margin: 0px;
+    margin-bottom:10px;
+}
+.pageDtlsDescription{
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    p{
+        font-weight: 400;        
+        color: #333;
+        font-size: 17px;
+        line-height: 30px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        padding: 10px 0px;
+        margin: 0px;
+    }
+    h4{
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        line-height: 40px;
+        padding: 20px 0px 0px;
+    }
+
+} 
+.publishdate h6{
+    font-size: $h6fontsize;
+    line-height: 30px;
 }

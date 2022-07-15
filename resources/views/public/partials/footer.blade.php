@@ -5,14 +5,16 @@
 			<div class="col-md-3 col-sm-3">
 				<div class="footer-social">
 					<h3 class="footerTitle">Get in Touch</h3>
-					<ul>
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-					</ul>
+					<div class="ayanEffects ayanHoverEffect_2">					
+						<ul>
+							<li><a href="#" data-link-alt="F"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" data-link-alt="Y"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" data-link-alt="Y"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" data-link-alt="Y"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" data-link-alt="Y"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" data-link-alt="Y"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-3">
@@ -30,6 +32,7 @@
 				<div class="footer-link">
 					<h3 class="footerTitle">Stay with us</h3>				    
 				</div>
+					
 			</div>
 		</div>
 	</div><!--footerTop-->
